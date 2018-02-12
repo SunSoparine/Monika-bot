@@ -2,7 +2,6 @@ const commando = require('discord.js-commando')
 const bot = new commando.Client({
     autorun: true
 });
-commando.login(process.env.BOT_TOKEN);
 
 bot.registry.registerGroup('random', 'Random');
 bot.registry.registerDefaults();
@@ -249,4 +248,4 @@ bot.on('message', (message) => {
     }
 });
 
-bot.login('BOT_TOKEN');
+commando.login(process.env.BOT_TOKEN);
