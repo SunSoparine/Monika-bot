@@ -249,4 +249,4 @@ bot.on('message', (message) => {
     }
 });
 
-bot.login('NDExNzcxMjg0MTA4NjA3NDk4.DWEWNw.wHe4iz-cb6tnUaZ5Bb7Vz0IR3zA');
+bot.login('BOT_TOKEN');
