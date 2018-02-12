@@ -1,0 +1,252 @@
+const commando = require('discord.js-commando')
+const bot = new commando.Client({
+    autorun: true
+});
+commando.login(process.env.BOT_TOKEN);
+
+bot.registry.registerGroup('random', 'Random');
+bot.registry.registerDefaults();
+bot.registry.registerCommandsIn(__dirname + "/commands");
+
+bot.on('message', (message) => {
+
+//Meta stuff
+	if(message.content == "You are a terrible bot") {
+        message.channel.sendMessage("Well that's @SunSoparine#3304's fault, he coded me. Give him some constructive feedback.")
+    }
+
+	if(message.content == "You made an error") {
+        message.channel.sendMessage("Well tell my scripter, @SunSoparine#3304, about it. He needs to edit my code ASAP")
+    }
+
+    if(message.content == "testing Monika testing") {
+        message.channel.sendMessage("I'm online!")
+    }
+
+//delete commands
+    	if(message.content == 'delete me') {
+        message.channel.sendMessage(message.author + '.chr was deleted successfully.')
+    }
+
+//ily/ihy commands
+    	if(message.content == 'I love you Monika') {
+        message.channel.sendMessage('I love you too!' + message.author)
+    }
+
+    	if(message.content == 'Monika I love you') {
+        message.channel.sendMessage('I love you too!' + message.author)
+    }
+
+    	if(message.content == 'Monika is worst girl') {
+        message.channel.sendMessage(message.author + '.chr was deleted successfully. :)')
+    }
+
+    	if(message.content == 'Fuck Monika') {
+        message.channel.sendMessage(message.author + ".chr was deleted successfully. That's not very nice. :(")
+    }
+
+    	if(message.content == 'Fuck you Monika') {
+        message.channel.sendMessage(message.author + ".chr was deleted successfully. That's not very nice. :(")
+    }
+
+	if(message.content == "weeb shit") {
+        message.channel.sendMessage("Well I'm technically Japanese, but it isn't nice to judge someone for liking Anime-themed things :(")
+    }
+
+//Best girl/Worst girl/trap quotes
+    	if(message.content == 'Monika is best girl') {
+        message.channel.sendMessage('Aww thanks! <3')
+    }
+
+    	if(message.content == 'Sayori is best girl') {
+        message.channel.sendMessage('sayori.chr was deleted successfully. You kinda left her hanging. :)')
+    }
+
+    	if(message.content == 'Yuri is best girl') {
+        message.channel.sendMessage('yuri.chr was deleted successfully. I never knew you were into the yandere type. :)')
+    }
+
+    	if(message.content == 'Natsuki is best girl') {
+        message.channel.sendMessage("natsuki.chr was deleted successfully. I would've agreed if she ate more. :)")
+    }
+
+    	if(message.content == 'Monika is best grill') {
+        message.channel.sendMessage('Aww thanks! <3 You spelt girl wrong though.')
+    }
+
+    	if(message.content == 'Sayori is best grill') {
+        message.channel.sendMessage('sayori.chr was deleted successfully. You left her hanging, also you spelt girl wrong. :)')
+    }
+
+    	if(message.content == 'Yuri is best grill') {
+        message.channel.sendMessage('yuri.chr was deleted successfully. I never knew you were into the yandere type, also you spelt girl wrong, Yuri would be ashamed. :)')
+    }
+
+    	if(message.content == 'Natsuki is best grill') {
+        message.channel.sendMessage("natsuki.chr was deleted successfully. I would've agreed if she ate more, also you spelt girl wrong. :)")
+    }
+
+    	if(message.content == 'Monika best girl') {
+        message.channel.sendMessage('Aww thanks! <3')
+    }
+
+    	if(message.content == 'Sayori best girl') {
+        message.channel.sendMessage('sayori.chr was deleted successfully. You kinda left her hanging. :)')
+    }
+
+    	if(message.content == 'Yuri best girl') {
+        message.channel.sendMessage('yuri.chr was deleted successfully. I never knew you were into the yandere type. :)')
+    }
+
+    	if(message.content == 'Natsuki best girl') {
+        message.channel.sendMessage("yuri.chr was deleted successfully. I would've agreed if she ate more. :)")
+    }
+
+    	if(message.content == 'All dokis best dokis') {
+        message.channel.sendMessage("I guess? At least you wouldn't treat the other girls differently from me! '3' ")    
+    }
+
+	if(message.content == "Monika is girl") {
+        message.channel.sendMessage("Uhh yes I am a girl? Did you mean something else?")
+    }
+
+	if(message.content == "Sayori is girl") {
+        message.channel.sendMessage("Uhh yes she is a girl? Did you mean something else?")
+    }
+
+	if(message.content == "Yuri is girl") {
+        message.channel.sendMessage("Uhh yes she is a girl? Did you mean something else?")
+    }
+
+	if(message.content == "Natsuki is girl") {
+        message.channel.sendMessage("Uhh yes she is a girl? Or are you just disagreeing with that ridiculous fan theory that she's a trap?")
+    }
+
+	if(message.content == "Natsuki is a girl") {
+        message.channel.sendMessage("Uhh yes she is a girl? Or are you just disagreeing with that ridiculous fan theory that she's a trap?")
+    }
+
+	if(message.content == "Natsuki is a boy") {
+        message.channel.sendMessage("Umm... No? Dan Salvato has already said that's a really terrible joke to make about her, I suggest you stop.")
+    }
+
+	if(message.content == "Natsuki is a trap") {
+        message.channel.sendMessage(message.author + ".chr was deleted successfully. Dear God you people make me sick")
+    }
+
+	if(message.content == "Monika you're always my favorite") {
+        message.channel.sendMessage("Aww thanks! <3 You're my favorite too!")
+    }
+
+	if(message.content == "Monika you're my favourite doki") {
+        message.channel.sendMessage("Aww thanks! <3 You're my favourite too!")
+    }
+
+	if(message.content == "Monika you're my favourite") {
+        message.channel.sendMessage("Aww thanks! <3 You're my favourite too!")
+    }
+
+//Greetings
+	if(message.content == "Hi Monika") {
+        message.channel.sendMessage("Hello!")
+    }
+
+	if(message.content == "Hello Monika") {
+        message.channel.sendMessage("Hi!")
+    }	
+
+	if(message.content == "Everyday") {
+        message.channel.sendMessage("I imagine a future where I can be with you!")
+    }
+
+	if(message.content == "bye") {
+        message.channel.sendMessage("Bye!")
+    }
+
+	if(message.content == "Bye") {
+        message.channel.sendMessage("Bye!")
+    }
+
+	if(message.content == "bai") {
+        message.channel.sendMessage("Bye!")
+    }
+
+	if(message.content == "Bai") {
+        message.channel.sendMessage("Bye!")
+    }
+
+	if(message.content == "baii") {
+        message.channel.sendMessage("Bye!")
+    }
+
+	if(message.content == "Baii") {
+        message.channel.sendMessage("Bye!")
+    }
+
+	if(message.content == "gnite") {
+        message.channel.sendMessage("Sweet dreams!")
+    }
+
+	if(message.content == "Gnite") {
+        message.channel.sendMessage("Goodnight!")
+    }
+
+	if(message.content == "goodnight") {
+        message.channel.sendMessage("Have a great sleep!")
+    }
+
+	if(message.content == "Goodnight") {
+        message.channel.sendMessage("Goodnight to you too!")
+    }
+
+	if(message.content == "How are you Monika?") {
+        message.channel.sendMessage("I'm feeling pretty great!")
+    }
+
+	if(message.content == "Monika how are you?") {
+        message.channel.sendMessage("Pretty great, thanks!")
+    }
+
+//Inside Jokes
+	if(message.content == "This is terrible") {
+        message.channel.sendMessage("Well no, *this* is terrible https://discord.gg/R9ubYxA")
+    }
+
+	if(message.content == "You are terrible at this game") {
+        message.channel.sendMessage("Nope, that title belongs to @TerribleAtGames#2433")
+    }
+//Literature club
+	if(message.content == "im bored") {
+        message.channel.sendMessage("Maybe you could write a poem? :)")
+    }
+
+	if(message.content == "Im bored") {
+        message.channel.sendMessage("Maybe you could write a poem? :)")
+    }
+
+	if(message.content == "I'm bored") {
+        message.channel.sendMessage("Maybe you could write a poem? :)")
+    }
+
+	if(message.content == "I'm hungry") {
+        message.channel.sendMessage("Ask Natsuki for some cupcakes!")
+    }
+
+	if(message.content == "Im hungry") {
+        message.channel.sendMessage("Ask Natsuki for some of her baked goods!")
+    }
+
+	if(message.content == "im hungry") {
+        message.channel.sendMessage("Maybe ask Natsuki to bake you something?")
+    }
+//Star Wars Quotes
+	if(message.content == "Hello there") {
+	message.channel.sendMessage("Ģ̴̈͒ẽ̷̩͠n̸̡̯͑ĕ̴͍̔ŕ̷̩ą̵͕̽l̴̯̾̽ ̸̜͎̅̋Ķ̸̯̎̀ẹ̷̞̃͋n̶̮̾̅ö̴̤̼́͊b̵̮͗î̸̘!̷̥̎̈́")
+    }
+
+    if(message.content == "Did you ever hear the tragedy of Darth Plagueis the Wise?") {
+        message.channel.sendMessage("I thought not. It's not a story the Jedi would tell you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life... He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic, he could save others from death, but not himself.")
+    }
+});
+
+bot.login('NDExNzcxMjg0MTA4NjA3NDk4.DWEWNw.wHe4iz-cb6tnUaZ5Bb7Vz0IR3zA');
