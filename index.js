@@ -313,10 +313,6 @@ bot.on('message', (message) => {
 	message.channel.sendMessage("Not just the men, but the women and children too?")
     }
 	
-	if(message.content == "I killed them all") {
-	message.channel.sendMessage("Not just the men, but the women and children too?")
-    }
-	
 	if(message.content == "I don't like sand") {
 	message.channel.sendMessage("Because it's coarse and rough and irritating and it gets everywhere?")
     }
