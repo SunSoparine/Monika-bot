@@ -302,7 +302,7 @@ bot.on('message', (message) => {
     }
 	
 	if(message.content == "Yuri do you need a pen?") {
-        message.channel.sendMessage("Umm I wouldn't do that if I were you (^_^")")
+        message.channel.sendMessage("Umm I wouldn't do that if I were you |^_^"|")
     }
 //Star Wars Quotes
 	if(message.content == "Hello there") {
