@@ -92,7 +92,7 @@ bot.on('message', (message) => {
     }
 
     	if(message.content == 'Natsuki best girl') {
-        message.channel.sendMessage("yuri.chr was deleted successfully. I would've agreed if she ate more. :)")
+        message.channel.sendMessage("natsuki.chr was deleted successfully. I would've agreed if she ate more. :)")
     }
 
     	if(message.content == 'All dokis best dokis') {
@@ -122,20 +122,40 @@ bot.on('message', (message) => {
 	if(message.content == "Natsuki is a boy") {
         message.channel.sendMessage("Umm... No? Dan Salvato has already said that's a really terrible joke to make about her, I suggest you stop.")
     }
+	
+	if(message.content == "Natsuki is male") {
+        message.channel.sendMessage("Umm... No? Dan Salvato has already said that's a really terrible joke to make about her, I suggest you stop.")
+    }
+
+	if(message.content == "Natsuki is a male") {
+        message.channel.sendMessage("Umm... No? Dan Salvato has already said that's a really terrible joke to make about her, I suggest you stop.")
+    }
 
 	if(message.content == "Natsuki is a trap") {
-        message.channel.sendMessage(message.author + ".chr was deleted successfully. Dear God you people make me sick")
+        message.channel.sendMessage(message.author + ".chr was deleted successfully. Dear God, you people make me sick")
     }
 
 	if(message.content == "Monika you're always my favorite") {
-        message.channel.sendMessage("Aww thanks! <3 You're my favorite too!")
+        message.channel.sendMessage("Aww thanks! <3 You're my favourite too!")
+    }
+	
+	if(message.content == "Monika you're always my favourite") {
+        message.channel.sendMessage("Aww thanks! <3 You're my favourite too!")
     }
 
 	if(message.content == "Monika you're my favourite doki") {
         message.channel.sendMessage("Aww thanks! <3 You're my favourite too!")
     }
+	
+	if(message.content == "Monika you're my favorite doki") {
+        message.channel.sendMessage("Aww thanks! <3 You're my favourite too!")
+    }
 
 	if(message.content == "Monika you're my favourite") {
+        message.channel.sendMessage("Aww thanks! <3 You're my favourite too!")
+    }
+
+	if(message.content == "Monika you're my favorite") {
         message.channel.sendMessage("Aww thanks! <3 You're my favourite too!")
     }
 
@@ -208,6 +228,54 @@ bot.on('message', (message) => {
 	if(message.content == "You are terrible at this game") {
         message.channel.sendMessage("Nope, that title belongs to @TerribleAtGames#2433")
     }
+	
+	if(message.content == "Wtf steve") {
+	message.channel.sendMessage("What did Steve do?")
+    }
+	
+	if(message.content == "Wtf Steve") {
+	message.channel.sendMessage("Oh... Wow Steve.")
+    }	
+	
+	if(message.content == "What the fuck steve") {
+	message.channel.sendMessage("Did Steve do anything again?")
+    }	
+	
+	if(message.content == "What the fuck Steve") {
+	message.channel.sendMessage("What did Steve do again?")
+    }
+	
+	if(message.content == "Steve wtf") {
+	message.channel.sendMessage("Umm... Okay Steve?")
+    }
+	
+	if(message.content == "steve wtf") {
+	message.channel.sendMessage("Did Steve do anything again?")
+    }
+	
+	if(message.content == "Steve what the fuck") {
+	message.channel.sendMessage("Did Steve do anything again?")
+    }
+	
+	if(message.content == "steve what the fuck") {
+	message.channel.sendMessage("Did Steve do anything again?")
+    }
+	
+	if(message.content == "Jesus Christ Steve") {
+	message.channel.sendMessage("Oh my God Steve 0_0")
+    }
+	
+	if(message.content == "Jesus christ steve") {
+	message.channel.sendMessage("Oh Jesus... Steve O-o")
+    }	
+	
+	if(message.content == "jesus christ steve") {
+	message.channel.sendMessage("Oh my... Steve o_O")
+    }	
+	
+	if(message.content == "jesus christ Steve") {
+	message.channel.sendMessage("Oh my lord... Steve 0-0")
+    }	
 //Literature club
 	if(message.content == "im bored") {
         message.channel.sendMessage("Maybe you could write a poem? :)")
@@ -232,12 +300,28 @@ bot.on('message', (message) => {
 	if(message.content == "im hungry") {
         message.channel.sendMessage("Maybe ask Natsuki to bake you something?")
     }
+	
+	if(message.content == "Yuri do you need a pen?") {
+        message.channel.sendMessage("Umm I wouldn't do that if I were you (^_^")")
+    }
 //Star Wars Quotes
 	if(message.content == "Hello there") {
 	message.channel.sendMessage("Ģ̴̈͒ẽ̷̩͠n̸̡̯͑ĕ̴͍̔ŕ̷̩ą̵͕̽l̴̯̾̽ ̸̜͎̅̋Ķ̸̯̎̀ẹ̷̞̃͋n̶̮̾̅ö̴̤̼́͊b̵̮͗î̸̘!̷̥̎̈́")
     }
+	
+	if(message.content == "I killed them all") {
+	message.channel.sendMessage("Not just the men, but the women and children too?")
+    }
+	
+	if(message.content == "I killed them all") {
+	message.channel.sendMessage("Not just the men, but the women and children too?")
+    }
+	
+	if(message.content == "I don't like sand") {
+	message.channel.sendMessage("Because it's coarse and rough and irritating and it gets everywhere?")
+    }
 
-    if(message.content == "Did you ever hear the tragedy of Darth Plagueis the Wise?") {
+        if(message.content == "Did you ever hear the tragedy of Darth Plagueis the Wise?") {
         message.channel.sendMessage("I thought not. It's not a story the Jedi would tell you. It's a Sith legend. Darth Plagueis was a Dark Lord of the Sith, so powerful and so wise he could use the Force to influence the midichlorians to create life... He had such a knowledge of the dark side that he could even keep the ones he cared about from dying. The dark side of the Force is a pathway to many abilities some consider to be unnatural. He became so powerful... the only thing he was afraid of was losing his power, which eventually, of course, he did. Unfortunately, he taught his apprentice everything he knew, then his apprentice killed him in his sleep. Ironic, he could save others from death, but not himself.")
     }
 });
