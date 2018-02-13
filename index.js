@@ -15,7 +15,14 @@ bot.on('message', (message) => {
     if(message.content == "testing Monika testing") {
         message.channel.sendMessage("I'm online!")
     }
+	
+    if(message.content == "Monika what can you say?") {
+        message.channel.sendMessage("Not a lot so far, go to this server and give suggestions! Or dm @SunSoparine#3304 if you want to tell him personally. https://discord.gg/DhVqJMQ")
+    }
 
+    if(message.content == "Monika who is your creator?") {
+        message.channel.sendMessage("@SunSoparine#3304 coded me! dm  him if you want to suggest phrases I can say, or join his server. https://discord.gg/DhVqJMQ")
+    }
 //delete commands
     	if(message.content == 'delete me') {
         message.channel.sendMessage(message.author + '.chr was deleted successfully.')
