@@ -28,7 +28,9 @@ bot.on('message', (message) => {
         message.channel.sendMessage(message.author + '.chr was deleted successfully.')
     }
 	
-
+    	if(message.content == 'kill me') {
+        message.channel.sendMessage(message.author + '.chr was deleted successfully.')
+    }
 
 //ily/ihy commands
     	if(message.content == 'I love you Monika') {
@@ -54,6 +56,11 @@ bot.on('message', (message) => {
 	if(message.content == "weeb shit") {
         message.channel.sendMessage("Well I'm technically Japanese, but it isn't nice to judge someone for liking Anime-themed things :(")
     }
+	
+	if(message.content == "Monika's gay") {
+        message.channel.sendMessage("Well it honestly depends, are you female? ;D")
+    }
+
 
 //Best girl/Worst girl/trap quotes
     	if(message.content == 'Monika is best girl') {
