@@ -32,6 +32,13 @@ bot.on('message', (message) => {
         message.channel.sendMessage(message.author + '.chr was deleted successfully.')
     }
 
+    	if(message.content == 'delete me mommy') {
+        message.channel.sendMessage(message.author + ".chr was deleted successfully. Also that's kinky 0-o")
+    }
+	
+    	if(message.content == 'DELETE ME MOMMY') {
+        message.channel.sendMessage(message.author + ".chr was deleted successfully. Also that's really kinky 0-o")
+    }
 //ily/ihy commands
     	if(message.content == 'I love you Monika') {
         message.channel.sendMessage('I love you too!' + message.author)
