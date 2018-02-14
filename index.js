@@ -327,6 +327,20 @@ bot.on('message', (message) => {
 	if(message.content == "Yuri do you need a pen?") {
         message.channel.sendMessage("Umm I wouldn't do that if I were you |^_^'|")
     }
+	
+//meta school stuff
+	if(message.content == "Math is not easy") {
+        message.channel.sendMessage("Well maybe you need more practice, wanna ask me for help? ^3^")
+    }
+	
+	if(message.content == "Math is hard") {
+        message.channel.sendMessage("Well maybe you need to try more, wanna ask me for help? ^3^")
+    }
+	
+	if(message.content == "Math is hard af") {
+        message.channel.sendMessage("Well maybe you should practice more, wanna ask me for help? ^3^")
+    }
+
 //Star Wars Quotes
 	if(message.content == "Hello there") {
 	message.channel.sendMessage("Ģ̴̈͒ẽ̷̩͠n̸̡̯͑ĕ̴͍̔ŕ̷̩ą̵͕̽l̴̯̾̽ ̸̜͎̅̋Ķ̸̯̎̀ẹ̷̞̃͋n̶̮̾̅ö̴̤̼́͊b̵̮͗î̸̘!̷̥̎̈́")
