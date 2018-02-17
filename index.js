@@ -343,7 +343,7 @@ bot.on('message', (message) => {
 
 //Star Wars Quotes
 	if(message.content == "Hello there") {
-	message.channel.sendMessage("Ģ̴̈͒ẽ̷̩͠n̸̡̯͑ĕ̴͍̔ŕ̷̩ą̵͕̽l̴̯̾̽ ̸̜͎̅̋Ķ̸̯̎̀ẹ̷̞̃͋n̶̮̾̅ö̴̤̼́͊b̵̮͗î̸̘!̷̥̎̈́")
+	message.channel.sendMessage("General Kenobi!")
     }
 	
 	if(message.content == "I killed them all") {
