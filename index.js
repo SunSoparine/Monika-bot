@@ -53,7 +53,7 @@ bot.on('message', (message) => {
     }
 
     	if(message.content == 'Fuck Monika') {
-        message.channel.sendMessage(message.author + ".chr was deleted successfully. That's not very nice. :(")
+        message.channel.sendMessage(message.author + ".chr was deleted successfully. That's not very nice. D:")
     }
 
     	if(message.content == 'Fuck you Monika') {
