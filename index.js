@@ -374,6 +374,10 @@ bot.on('message', (message) => {
 	if(message.content == "You thought it was gonna be nude") {
         message.channel.sendMessage("But it was me MONIKA!")
     }
+
+	if(message.content == "ORA ORA ORA") {
+        message.channel.sendMessage("MUDA MUDA MUDA")
+    }
 });
 
 bot.login(process.env.BOT_TOKEN);
