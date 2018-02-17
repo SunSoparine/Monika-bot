@@ -361,6 +361,19 @@ bot.on('message', (message) => {
 	if(message.content == "It's over Anakin") {
 	message.channel.sendMessage("I have the high ground!")
     }
+	
+//Anime reference	
+	if(message.content == "You thought it was gonna be nude") {
+        message.channel.sendMessage("But it was me MONIKA!")
+    }
+	
+	if(message.content == "ZA WARUDO") {
+        message.channel.sendMessage("TOKI YO TOMARE!")
+    }
+	
+	if(message.content == "You thought it was gonna be nude") {
+        message.channel.sendMessage("But it was me MONIKA!")
+    }
 });
 
 bot.login(process.env.BOT_TOKEN);
