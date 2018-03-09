@@ -1,6 +1,11 @@
 const commando = require('discord.js-commando')
 const bot = new commando.Client();
 
+commandPrefix: '?';
+owner: '<Insert Your User ID Here>';
+disableEveryone: true
+unknownCommandResponse: false
+
 bot.on('message', (message) => {
 
 //Meta stuff
